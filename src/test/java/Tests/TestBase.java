@@ -25,8 +25,7 @@ public class TestBase {
         driver.get("https://www.hot.net.il/heb/Main/");
         driver.findElement(By.xpath("//*[@id='headerMenu_tab00 ']")).click();
         driver.findElement(By.xpath("//*[@id='headerMenu00']")).click();
-        driver.findElement(By.xpath("//a[contains(.,'מבצעי אינטרנט')]")).click();
-        driver.findElement(By.id("Obj_linkButton_51")).click();
+      
        
         
 
@@ -39,7 +38,7 @@ public class TestBase {
 
 
 
-@AfterTest (enabled =false)
+@AfterTest (enabled =true)
     public void closeBrowser(){
         driver.close();
 }
