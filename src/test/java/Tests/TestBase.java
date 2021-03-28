@@ -27,7 +27,7 @@ public class TestBase {
         driver.findElement(By.xpath("//*[@id='headerMenu00']")).click();
         driver.findElement(By.xpath("//a[contains(.,'מבצעי אינטרנט')]")).click();
         driver.findElement(By.id("Obj_linkButton_51")).click();
-        driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS);
+       
         
 
 
